@@ -1,0 +1,395 @@
+:root {
+    --green: #124406;
+    --bg: #0a0a0a;
+    --gold: #E5B80B;
+    --red: #780505;
+    --shadow: 0 .5rem 1rem rgba($black, .15);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif;
+    min-height: 4000px;
+}
+
+/* HERO */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/9986976.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero h4 {
+    color: white;
+    font-family: Roboto Condensed", sans-serif;
+}
+.hero h1 {
+    font-family: "Hurricane", cursive;
+    font-size: 10rem;
+    justify-content: center;
+    color: var(--gold);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+}
+
+.hero h2 {
+    font-family: "Hurricane", cursive;
+    font-size: 5rem;
+    justify-content: center;
+    color: var(--gold);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+}
+.hero p {
+    color: white;
+    
+}
+
+.hero h4 {
+    font-size: 2rem;
+    font-family: "Noto Serif", serif;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-family: "Noto Serif", serif;
+}
+
+.hero a {
+    color: var(--red);
+    background-color: white;
+    box-shadow: white;
+}
+
+.hero a:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+.mynavbar {
+    background-color: rgba(115, 7, 7, 0.624) !important;
+    backdrop-filter: blur(5px);
+}
+
+.mynavbar .offcanvas {
+    height: 100vh;
+    width: 20vh;
+    color: white transparent;
+
+}
+
+.mynavbar .navbar-brand, 
+.mynavbar .offcanvas-title {
+    font-family: "Hurricane", cursive;
+    font-size: 3rem;
+    color: #E5B80B;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+/* HOME */
+.home,
+.rsvp {
+    background-image: url(img/9983274.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -1rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.keluarga {
+    background-image: url(img/9983274.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -1rem;
+    padding-top: 16rem;
+    padding-bottom: 10rem;
+}
+
+.gallery {
+    background-image: url(img/9983274.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -1rem;
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+}
+
+.home h2, 
+.gallery h2,
+.rsvp h2,
+.keluarga h2 {
+    color: var(--gold);
+    font-family: "Hurricane", cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    margin-top: -10rem;
+    margin-bottom: -0.5rem;
+}
+
+.home h3,
+.ending h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Noto Serif", serif;
+}
+
+.home p,
+.gallery p,
+.rsvp p,
+.keluarga p,
+.ending p {
+    font-size: 1.1rem;
+    color: white;
+    font-family: "Noto Serif", serif;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.home .memperkenalkan {
+    margin-top: 100px;
+
+}
+
+.home .memperkenalkan h4 {
+    font-family: "Hurricane";
+    font-size: 4rem;
+    color: var(--gold);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+}
+
+
+.home .memperkenalkan img {
+    width: 100%;
+}
+
+
+/* INFO */
+
+.info h2 {
+    color: var(--gold);
+    font-family: "Hurricane", cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    margin-top: -1rem;
+    margin-bottom: -0.5rem;
+}
+
+.info {
+    background-image: url(img/9983274.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-family: "Noto Serif", serif;
+}
+
+.info alamat {
+    font-size: 1.1rem;
+    font-family: "Noto Serif", serif;
+    
+}
+
+.info .description {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.info .card {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border: 1px solid #928e8e;
+}
+
+.info .card-header {
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.info .body {
+    font-size: 1rem;
+}
+
+.info .card-footer {
+    border-top: 1px solid #999;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+/* KELUARGA */
+
+.keluarga {
+    font-family: "Noto Serif", serif;
+}
+.keluarga h3 { 
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 0.2rem;
+    
+}
+
+.keluarga h5 {
+    text-align: center;
+    padding-bottom: 0.4rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+
+}
+
+.keluarga .card {
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border: 1px solid #928e8e;
+}
+.keluarga .card-header h3 {
+    color: rgb(255, 253, 253);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-top: 1px solid #999;
+}
+.keluarga .card-body h3,
+.keluarga .card-body span {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.keluarga .card-header p,
+.keluarga .card-body p  {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.keluarga .card-footer {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    color: white;
+}
+
+/* RSVP */
+
+.rsvp form label {
+    color: white;
+}
+
+.rsvp button {
+    color: var(--red);
+    background-color: white;
+    box-shadow: white;
+}
+
+.rsvp button:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+
+footer {
+    padding: 3rem;
+    background-color: var(--bg);
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.audio-icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+/* Media Query */
+/* laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 70px;
+    }
+
+}
+/* tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 60px;
+        margin: 5px;
+    }
+  
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+}
+
+.sticky-top {
+    overflow: hidden;
+}
+/* mobile phone */ 
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 45px;
+        margin: 3px;
+    }
+
+   
+}}
